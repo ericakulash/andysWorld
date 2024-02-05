@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andy's World</title>
+    <link rel="stylesheet" href="./resources/css/index.css" />
+  </head>
+
+  <body>
+    <!-- Header section -->
+    <nav class="header">
+      <ul>
+        <li><a class="home" href="#top">Andy's World</a></li>
+        <li>
+          <a class="pagelink" href="#andy-rotation-station"
+            >Andy's Rotation Station</a
+          >
+        </li>
+        <li><a class="pagelink" href="#hide-and-go">Hide and Go Andy</a></li>
+        <li><a class="pagelink" href="#andicon">Welcome to Andy's World</a></li>
+      </ul>
+    </nav>
+    <!-- Rotation section -->
+    <div class="banner" id="andy-rotation-station">
+      <h1>Andy's Rotation Station</h1>
+      <img
+        id="small-andy"
+        src="./resources/images/andyKoolaid.png"
+        alt="Andy face PNG"
+      />
+      <p>Cause everything's better in Andy's World</p>
+        <button type="button" id="rotate-left-button">rotate left</button>
+        <button type="button" id="rotate-right-button">rotate right</button>
+    </div>
+
+    <!-- Hide and Go Section -->
+    <div id="hide-and-go">
+      <h2>Hide and Go Andy</h2>
+      <p>
+        A combination of event listeners and event handlers gives you the
+        ability to define how a site should react to your user's action. For
+        instance, you can trigger an event when a user
+        <strong>hovers over an element on your site</strong>.
+      </p>
+      <p>
+        <em
+          >You're not limited to mouse events, you can also define key events
+          when users interact keyboards.</em
+        >
+      </p>
+      <div class="border" id="andy-border">
+        <img
+          class=""
+          id="toggle-andy"
+          src="./resources/images/andyHead.png"
+          alt="Andy face PNG"
+        />
+      </div>
+    </div>
+
+    <!-- Andy section -->
+    <div class="andy-section">
+      <span class="bold" id="andy">Welcome to Andy's World </span>
+      <p class="bold">
+        Social media dedicated to Andy... and only Andy... cause he's the best
+      </p>
+      <form id="andy-form" action="">
+        <input type="text" aria-label="Submit" name="andies" />
+        <input type="submit" value="Submit" />
+      </form>
+      <div id="andicon">
+        <ul>
+          <li>
+            <div class="avatar"></div>
+            <span>Hey there, it's Andy again.</span>
+          </li>
+          <li>
+            <div class="avatar"></div>
+            <span>Go Chiefs!</span>
+          </li>
+          <li>
+            <div class="avatar"></div>
+            <span>Swiftie</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="./andy.js"></script>
+  </body>
+</html>
